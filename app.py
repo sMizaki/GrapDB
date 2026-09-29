@@ -117,7 +117,7 @@ st.markdown(
     
 )
 
-st.image("my_profile.jpg", width=200, use_container_width=True)
+st.image("my_profile.jpg", width=10, use_container_width=True)
 
 if page == "Dashboard":
     st.subheader("ภาพรวมระบบ")
