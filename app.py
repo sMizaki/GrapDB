@@ -108,11 +108,16 @@ st.markdown(
     """
     <div class="hero">
       <h1>📚 GraphBook Recommendation System</h1>
+      
       <p>ระบบแนะนำหนังสือด้วย Graph Database ที่อธิบายเหตุผลของคำแนะนำได้</p>
     </div>
+    
     """,
     unsafe_allow_html=True,
+    
 )
+
+st.image("my_profile.jpg", width=200, use_container_width=True)
 
 if page == "Dashboard":
     st.subheader("ภาพรวมระบบ")
